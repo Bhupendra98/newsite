@@ -6,7 +6,7 @@ let apiKey = 'f82df962fa9e4e3f96befa5da1c48df7'
 let getNews = document.getElementById('getnews');
 
 
-var url = 'http://newsapi.org/v2/top-headlines?' +
+var url = 'https://newsapi.org/v2/top-headlines?' +
     'country=in&' +
     'apiKey=f82df962fa9e4e3f96befa5da1c48df7';
 var req = new Request(url);
